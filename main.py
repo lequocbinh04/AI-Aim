@@ -7,6 +7,8 @@ import win32con
 import pandas as pd
 import gc
 from utils.general import (cv2, non_max_suppression, xyxy2xywh)
+import warnings
+warnings.filterwarnings('ignore', category=FutureWarning)
 
 # Could be do with
 # from config import *
